@@ -1,9 +1,8 @@
 package com.social_app.model
 
 class Story (
-    var username: String,
-    var pp: String,
+    var user: User,
     var seen: Boolean,
-    var storyImage: String,
+    var storyImage: Int,
 ) {
 }

@@ -1,10 +1,9 @@
 package com.social_app.model
 
 class Post (
-    var username: String,
-    var pp: String,
+    var user: User,
     var postDate: String,
-    var photos: List<String>?,
+    var photos: List<Int>? = null,
     var comments: List<String>? = null,
     var whoLiked: List<User>? = null,
 ) {
