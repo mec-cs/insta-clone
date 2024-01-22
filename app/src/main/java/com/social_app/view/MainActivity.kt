@@ -1,4 +1,4 @@
-package com.social_app
+package com.social_app.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
